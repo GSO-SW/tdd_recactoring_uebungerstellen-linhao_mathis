@@ -10,6 +10,10 @@ namespace _22_12_2022_SWE_Refactoring
     {
         static void Main(string[] args)
         {
+
+            Rechteck a = new Rechteck(1,2);
+
+            
         }
     }
 }
