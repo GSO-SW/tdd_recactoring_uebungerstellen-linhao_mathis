@@ -6,31 +6,16 @@ using System.Threading.Tasks;
 
 namespace _22_12_2022_SWE_Refactoring
 {
-    internal class Rechteck
+    internal class Rechteck : GeometrischeFiguren
     {
-        private double a;
-        private double b;
-        private double c;
 
-        public Rechteck(double a, double b, double c)
+        public Rechteck(double a, double b)
         {
             this.a = a;
             this.b = b;
-            this.c = c;
+            
         }
 
-        public double A
-        {
-            get{ return a; }
-        }
-        public double B
-        {
-            get{ return b; }
-        }
 
-        public double C 
-        { 
-            get{ return a * b ; }
-        }
     }
 }
